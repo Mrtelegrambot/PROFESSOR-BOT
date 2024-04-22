@@ -6,7 +6,7 @@ from pyrogram import Client
 from pyrogram import types
 
 from ia_filterdb import media
-from database users_chats_db import db
+from users_chats import db
 from info import API_ID, API_HASH, BOT_TOKEN, LOG_CHANNEL, UPTIME, WEBHOOK, LOG_MSG
 from utils import temp, __repo__, __license__, __copyright__, __version__
 from typing import Union, Optional, AsyncGenerator
