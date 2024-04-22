@@ -5,7 +5,7 @@ from pyrogram.errors import BadRequest, Unauthorized
 from pyrogram import Client
 from pyrogram import types
 
-from ia_filterdb import media
+from ia_filter import db
 from users_chats import db
 from info import API_ID, API_HASH, BOT_TOKEN, LOG_CHANNEL, UPTIME, WEBHOOK, LOG_MSG
 from utils import temp, __repo__, __license__, __copyright__, __version__
